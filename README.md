@@ -9,7 +9,7 @@ Para conseguir executar os notebooks(arquivos .ipynb) é necessário, primeirame
 
 1-Abra o python powershell ou o anaconda prompt. Digite: pip install jupyterlab
 
-2-Alternativamente, caso tenha escolhido instalar anaconta, pode-se digitar conda install -c conda-forge jupyterlab.
+2-Alternativamente, caso tenha escolhido instalar anaconda, pode-se digitar conda install -c conda-forge jupyterlab.
 
 # Pré-requisitos: bibliotecas
 Para a execução dos notebooks desse repositório, são necessárias algumas bibliotecas além das padrões de python. Essas são: Pandas, Matplotlib, Sqlite3, numpy, pytrends e wordcloud. Elas podem ser instaladas digitando os seguintes comandos em python powershell ou anaconda prompt:
