@@ -37,7 +37,7 @@ Esse notebook é o responsável pela consulta do Google Trends gerada. Para sua 
 # correlacaoAnalise.ipynb
 Esse notebook é o responsável por realizar o calculo de correlação e a partir dele gerar diferentes visualizações para os dados, notávelmente, gráficos de linha, scatter plots e wordclouds. Para sua execução são necessárias as bibliotecas pandas, sqlite3, numpy, matplotlib e wordcloud, além dos arquivos gerados por GtrendsQuery.ipynb, indicadores.db e Queries categorizadas.csv.
 
-O output do código são os arquivos que podem ser vistos nas diversas pastas desse repositório: as spreadsheets da pasta Correlations, os gráficos da pasta Sintomas, os gráficos da pasta HighestCorrelations( a fazer) e as wordclouds da pasta Wordclouds(a fazer).
+O output do código são os arquivos que podem ser vistos nas diversas pastas desse repositório: as spreadsheets da pasta Correlations, os gráficos da pasta Sintomas, os gráficos da pasta Top10, as wordclouds da pasta Wordclouds e os bubble graphs da pasta Bubbles.
 
 # Metodologia de tratamento
 --------------------------------(feito por membros que não estão mais no grupo,preciso procurar com o Evandro)------------------------------------------------------------------
@@ -49,5 +49,5 @@ Esse repositório ao fim da execução desses vários notebooks gera não soment
 
 ![image](https://user-images.githubusercontent.com/57831311/109388090-b84e9880-78e3-11eb-819a-0cc2189f6747.png)
 
-
+Visualizações
 
