@@ -52,6 +52,6 @@ Outro resultado são imagens de facil interpretação no geral, como os bubble g
 Bubble graph das correlações em relação aos novos casos em MG(azul=positivo, vermelho=negativo):
 ![image](https://user-images.githubusercontent.com/57831311/111805902-37663980-88b0-11eb-8f37-cf71afa45f44.png)
 Wordcloud das correlações em relação aos novos casos em MG a partir de seu valor absoluto:
-![image](https://user-images.githubusercontent.com/57831311/109874727-3f866e00-7c4e-11eb-8be9-f8aeb7dbb7bb.png)
+![image](https://user-images.githubusercontent.com/57831311/111806063-5bc21600-88b0-11eb-822f-89044d881205.png)
 
 
