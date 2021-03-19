@@ -45,13 +45,12 @@ O output do código são os arquivos que podem ser vistos nas diversas pastas de
 # Resultados
 Esse repositório ao fim da execução desses vários notebooks gera não somente as correlações entre os indicadores e as keywords utilizadas, como também diversas visualizações, o que permite uma mais fácil observação de relações entre esses dois dados, que podem ser vistas, por exemplo, por meio de gráficos como os abaixo:
 
-![image](https://user-images.githubusercontent.com/57831311/109388084-af5dc700-78e3-11eb-9070-724626972211.png)
-
-![image](https://user-images.githubusercontent.com/57831311/109388090-b84e9880-78e3-11eb-819a-0cc2189f6747.png)
+![image](https://user-images.githubusercontent.com/57831311/109388084-af5dc700-78e3-11eb-9070-724626972211.png) ![image](https://user-images.githubusercontent.com/57831311/109388090-b84e9880-78e3-11eb-819a-0cc2189f6747.png)
+![image](https://user-images.githubusercontent.com/57831311/111805981-464cec00-88b0-11eb-8991-759401a4d791.png)
 
 Outro resultado são imagens de facil interpretação no geral, como os bubble graphs e wordclouds, nos quais o tamanho da bolha e palavra, respectivamente, indica quão alta é a correlação. Exemplos da aplicação desses métodos na pesquisa incluem:
 Bubble graph das correlações em relação aos novos casos em MG(azul=positivo, vermelho=negativo):
-![image](https://user-images.githubusercontent.com/57831311/109874498-f504f180-7c4d-11eb-9ada-10b535294e38.png)
+![image](https://user-images.githubusercontent.com/57831311/111805902-37663980-88b0-11eb-8f37-cf71afa45f44.png)
 Wordcloud das correlações em relação aos novos casos em MG a partir de seu valor absoluto:
 ![image](https://user-images.githubusercontent.com/57831311/109874727-3f866e00-7c4e-11eb-8be9-f8aeb7dbb7bb.png)
 
