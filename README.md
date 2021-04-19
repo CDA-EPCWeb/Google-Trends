@@ -50,7 +50,7 @@ Para a seleção dos termos de busca, inicialmente foi conduzido um levantamento
 # Resultados
 Esse repositório ao fim da execução desses vários notebooks gera não somente as correlações entre os indicadores e as keywords utilizadas, como também diversas visualizações, o que permite uma mais fácil observação de relações entre esses dois dados, que podem ser vistas, por exemplo, por meio de gráficos como os abaixo:
 
-![image](https://user-images.githubusercontent.com/57831311/115239678-606b2b80-a0f5-11eb-8b82-890bb6835b71.png) ![image](https://user-images.githubusercontent.com/57831311/115239708-66f9a300-a0f5-11eb-898c-35499210b617.png)
+![image](https://user-images.githubusercontent.com/57831311/115241132-dd4ad500-a0f6-11eb-882c-2a676fa3b1b9.png) ![image](https://user-images.githubusercontent.com/57831311/115241163-e340b600-a0f6-11eb-8ce8-e00d2a5f4e58.png)
 ![image](https://user-images.githubusercontent.com/57831311/111805981-464cec00-88b0-11eb-8991-759401a4d791.png)
 
 Outro resultado são imagens de facil interpretação no geral, como os bubble graphs e wordclouds, nos quais o tamanho da bolha e palavra, respectivamente, indica quão alta é a correlação. Exemplos da aplicação desses métodos na pesquisa incluem:
