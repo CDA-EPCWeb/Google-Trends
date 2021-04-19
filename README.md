@@ -39,6 +39,11 @@ Esse notebook é o responsável por realizar o calculo de correlação e a parti
 
 O output do código são os arquivos que podem ser vistos nas diversas pastas desse repositório: as spreadsheets da pasta Correlations, os gráficos da pasta Sintomas, os gráficos da pasta Top10, as wordclouds da pasta Wordclouds e os bubble graphs da pasta Bubbles.
 
+# lagCorrelations.ipynb
+Esse notebook é o responsável por realizar o calculo das correlações com lag, encontrando o intervalo de tempo que gera a melhor correlação (e consequentemente a melhor previsão dos indicadores a partir dos dados Google Trends). Para sua execução são necessárias as bibliotecas pandas, sqlite3 e matplotlib, além dos arquivos gerados por GtrendsQuery.ipynb e indicadores.db.
+
+O output do código são as maiores lag correlations encontradas. Além disso, o código permite encontrar todas correlações para um lag específico.
+
 # Metodologia de tratamento
 Para a seleção dos termos de busca, inicialmente foi conduzido um levantamento piloto de dezenas de palavras que potencialmente poderiam relacionar-se às variações dos números de casos reais na série temporal. Para isso, foram considerados termos relacionados a sintomas da síndrome gripal, bem como alguns mais específicos do adoecimento por infecção pelo novo coronavírus. A experiência de isolamento social, as mudanças de hábitos impostas pela pandemia, as medidas de prevenção, os insumos hospitalares em popularidade midiática ascendente e os nomes de medicamentos em estudo também foram considerados para esta primeira seleção. Na sequência, um relatório com dados de busca de tais termos nos últimos doze meses e nos últimos cinco anos foi elaborado, contendo os gráficos gerados a partir dos dados obtidos no Google Trends e a justificativa para o interesse em se considerar cada termo. Por fim, por consenso dos pesquisadores das áreas da saúde e da ciência da computação envolvidos no projeto, foram definidos 124 termos-chave. Foram critérios de inclusão definitiva a associação na mídia e no ambiente clínico com a experiência de contato pessoal, direto ou indireto, com a COVID-19, bem como o padrão de variação previamente verificado como interessante para posteriores cálculos de correlação com dados epidemiológicos
 
