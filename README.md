@@ -40,7 +40,7 @@ Esse notebook é o responsável por realizar o calculo de correlação e a parti
 O output do código são os arquivos que podem ser vistos nas diversas pastas desse repositório: as spreadsheets da pasta Correlations, os gráficos da pasta Sintomas, os gráficos da pasta Top10, as wordclouds da pasta Wordclouds e os bubble graphs da pasta Bubbles.
 
 # lagCorrelations.ipynb
-Esse notebook é o responsável por realizar o calculo das correlações com lag, encontrando o intervalo de tempo que gera a melhor correlação (e consequentemente a melhor previsão dos indicadores a partir dos dados Google Trends). Para sua execução são necessárias as bibliotecas pandas, sqlite3 e matplotlib, além dos arquivos gerados por GtrendsQuery.ipynb e indicadores.db.
+Esse notebook é o responsável por realizar o calculo das correlações com lag, encontrando o intervalo de tempo que gera a melhor correlação (e consequentemente a melhor previsão dos indicadores a partir dos dados Google Trends). Para sua execução são necessárias as bibliotecas pandas e sqlite3, além dos arquivos gerados por GtrendsQuery.ipynb e indicadores.db.
 
 O output do código são as maiores lag correlations encontradas. Além disso, o código permite encontrar todas correlações para um lag específico.
 
