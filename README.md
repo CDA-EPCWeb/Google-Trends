@@ -39,20 +39,24 @@ Esse notebook é o responsável por realizar o calculo de correlação e a parti
 
 O output do código são os arquivos que podem ser vistos nas diversas pastas desse repositório: as spreadsheets da pasta Correlations, os gráficos da pasta Sintomas, os gráficos da pasta Top10, as wordclouds da pasta Wordclouds e os bubble graphs da pasta Bubbles.
 
+# lagCorrelations.ipynb
+Esse notebook é o responsável por realizar o calculo das correlações com lag, encontrando o intervalo de tempo que gera a melhor correlação (e consequentemente a melhor previsão dos indicadores a partir dos dados Google Trends). Para sua execução são necessárias as bibliotecas pandas e sqlite3, além dos arquivos gerados por GtrendsQuery.ipynb e indicadores.db.
+
+O output do código são as maiores lag correlations encontradas. Além disso, o código permite encontrar todas correlações para um lag específico.
+
 # Metodologia de tratamento
---------------------------------(feito por membros que não estão mais no grupo,preciso procurar com o Evandro)------------------------------------------------------------------
+Para a seleção dos termos de busca, inicialmente foi conduzido um levantamento piloto de dezenas de palavras que potencialmente poderiam relacionar-se às variações dos números de casos reais na série temporal. Para isso, foram considerados termos relacionados a sintomas da síndrome gripal, bem como alguns mais específicos do adoecimento por infecção pelo novo coronavírus. A experiência de isolamento social, as mudanças de hábitos impostas pela pandemia, as medidas de prevenção, os insumos hospitalares em popularidade midiática ascendente e os nomes de medicamentos em estudo também foram considerados para esta primeira seleção. Na sequência, um relatório com dados de busca de tais termos nos últimos doze meses e nos últimos cinco anos foi elaborado, contendo os gráficos gerados a partir dos dados obtidos no Google Trends e a justificativa para o interesse em se considerar cada termo. Por fim, por consenso dos pesquisadores das áreas da saúde e da ciência da computação envolvidos no projeto, foram definidos 124 termos-chave. Foram critérios de inclusão definitiva a associação na mídia e no ambiente clínico com a experiência de contato pessoal, direto ou indireto, com a COVID-19, bem como o padrão de variação previamente verificado como interessante para posteriores cálculos de correlação com dados epidemiológicos
 
 # Resultados
 Esse repositório ao fim da execução desses vários notebooks gera não somente as correlações entre os indicadores e as keywords utilizadas, como também diversas visualizações, o que permite uma mais fácil observação de relações entre esses dois dados, que podem ser vistas, por exemplo, por meio de gráficos como os abaixo:
 
-![image](https://user-images.githubusercontent.com/57831311/109388084-af5dc700-78e3-11eb-9070-724626972211.png)
-
-![image](https://user-images.githubusercontent.com/57831311/109388090-b84e9880-78e3-11eb-819a-0cc2189f6747.png)
+![image](https://user-images.githubusercontent.com/57831311/115241132-dd4ad500-a0f6-11eb-882c-2a676fa3b1b9.png) ![image](https://user-images.githubusercontent.com/57831311/115241163-e340b600-a0f6-11eb-8ce8-e00d2a5f4e58.png)
+![image](https://user-images.githubusercontent.com/57831311/111805981-464cec00-88b0-11eb-8991-759401a4d791.png)
 
 Outro resultado são imagens de facil interpretação no geral, como os bubble graphs e wordclouds, nos quais o tamanho da bolha e palavra, respectivamente, indica quão alta é a correlação. Exemplos da aplicação desses métodos na pesquisa incluem:
 Bubble graph das correlações em relação aos novos casos em MG(azul=positivo, vermelho=negativo):
-![image](https://user-images.githubusercontent.com/57831311/109874498-f504f180-7c4d-11eb-9ada-10b535294e38.png)
+![image](https://user-images.githubusercontent.com/57831311/111805902-37663980-88b0-11eb-8f37-cf71afa45f44.png)
 Wordcloud das correlações em relação aos novos casos em MG a partir de seu valor absoluto:
-![image](https://user-images.githubusercontent.com/57831311/109874727-3f866e00-7c4e-11eb-8be9-f8aeb7dbb7bb.png)
+![image](https://user-images.githubusercontent.com/57831311/111806063-5bc21600-88b0-11eb-822f-89044d881205.png)
 
 
