@@ -44,6 +44,9 @@ Esse notebook é o responsável por realizar o calculo das correlações com lag
 
 O output do código são as maiores lag correlations encontradas. Além disso, o código permite encontrar todas correlações para um lag específico.
 
+# Regressão.ipynb
+Esse notebook realiza o calculo das 
+
 # Metodologia de tratamento
 Para a seleção dos termos de busca, inicialmente foi conduzido um levantamento piloto de dezenas de palavras que potencialmente poderiam relacionar-se às variações dos números de casos reais na série temporal. Para isso, foram considerados termos relacionados a sintomas da síndrome gripal, bem como alguns mais específicos do adoecimento por infecção pelo novo coronavírus. A experiência de isolamento social, as mudanças de hábitos impostas pela pandemia, as medidas de prevenção, os insumos hospitalares em popularidade midiática ascendente e os nomes de medicamentos em estudo também foram considerados para esta primeira seleção. Na sequência, um relatório com dados de busca de tais termos nos últimos doze meses e nos últimos cinco anos foi elaborado, contendo os gráficos gerados a partir dos dados obtidos no Google Trends e a justificativa para o interesse em se considerar cada termo. Por fim, por consenso dos pesquisadores das áreas da saúde e da ciência da computação envolvidos no projeto, foram definidos 124 termos-chave. Foram critérios de inclusão definitiva a associação na mídia e no ambiente clínico com a experiência de contato pessoal, direto ou indireto, com a COVID-19, bem como o padrão de variação previamente verificado como interessante para posteriores cálculos de correlação com dados epidemiológicos
 
@@ -58,5 +61,9 @@ Bubble graph das correlações em relação aos novos casos em MG(azul=positivo,
 ![image](https://user-images.githubusercontent.com/57831311/111805902-37663980-88b0-11eb-8f37-cf71afa45f44.png)
 Wordcloud das correlações em relação aos novos casos em MG a partir de seu valor absoluto:
 ![image](https://user-images.githubusercontent.com/57831311/111806063-5bc21600-88b0-11eb-822f-89044d881205.png)
+
+Por fim, um resultado importante dos arquivos desse repositório foi a produção de diversas previsões, buscando encontrar aquela mais adequada para a pandemia.
+Algumas dessas previsões podem ser vistas no gráfico abaixo:
+![image](https://user-images.githubusercontent.com/57831311/120321873-2f684400-c2ba-11eb-9226-f25bdb7ea696.png)
 
 
