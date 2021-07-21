@@ -46,7 +46,7 @@ O output do código são as maiores lag correlations encontradas, os gráficos c
 # Regressao.ipynb
 Esse notebook realiza o calculo da regressão entre as keywords do Google trends e os indicadores, de diferentes formas, buscando fazer um forecast dos dados de interesse. Para sua execução são necessárias as bibliotecas matplotlib, numpy, pandas, sqlite3, scikit learn, statsmodels e pmdarima.
 
-O output do código são diferentes regressões em relação aos dados.
+O output do código são diferentes regressões em relação aos dados, além dos erros obtidos em cada modelo testado.
 
 # Metodologia de tratamento
 Para a seleção dos termos de busca, inicialmente foi conduzido um levantamento piloto de dezenas de palavras que potencialmente poderiam relacionar-se às variações dos números de casos reais na série temporal. Para isso, foram considerados termos relacionados a sintomas da síndrome gripal, bem como alguns mais específicos do adoecimento por infecção pelo novo coronavírus. A experiência de isolamento social, as mudanças de hábitos impostas pela pandemia, as medidas de prevenção, os insumos hospitalares em popularidade midiática ascendente e os nomes de medicamentos em estudo também foram considerados para esta primeira seleção. Na sequência, um relatório com dados de busca de tais termos nos últimos doze meses e nos últimos cinco anos foi elaborado, contendo os gráficos gerados a partir dos dados obtidos no Google Trends e a justificativa para o interesse em se considerar cada termo. Por fim, por consenso dos pesquisadores das áreas da saúde e da ciência da computação envolvidos no projeto, foram definidos 124 termos-chave. Foram critérios de inclusão definitiva a associação na mídia e no ambiente clínico com a experiência de contato pessoal, direto ou indireto, com a COVID-19, bem como o padrão de variação previamente verificado como interessante para posteriores cálculos de correlação com dados epidemiológicos
@@ -57,8 +57,18 @@ Esse repositório ao fim da execução desses vários notebooks gera não soment
 ![image](https://user-images.githubusercontent.com/57831311/126552976-2ad3124f-a9fb-4f9f-8374-2604fb285400.png)
 ![image](https://user-images.githubusercontent.com/57831311/126552990-70a62443-6725-45cf-9942-df16b265911a.png)
 
+Outro resultado foi a representação em tabelas de como os lags de keywords com altas correlações cresce e diminui conforme se aumenta o lag, como pode ser visto abaixo:
+![image](https://user-images.githubusercontent.com/57831311/126558751-8ed62e94-b5f0-49b2-aadc-ff2e81e91e21.png)
+
 Por fim, um resultado importante dos arquivos desse repositório foi a produção de diversas previsões, buscando encontrar aquela mais adequada para a pandemia.
-Algumas dessas previsões podem ser vistas no gráfico abaixo:
+Algumas dessas previsões podem ser vistas nos gráficos abaixo:
 ![image](https://user-images.githubusercontent.com/57831311/120321873-2f684400-c2ba-11eb-9226-f25bdb7ea696.png)
+![image](https://user-images.githubusercontent.com/57831311/126556108-ddf9cca3-a019-4f8b-bcaf-22cfe04c9ff9.png)
+
+Todas essas previsões tem seus erros tanto no treino quanto no teste reportados no notebook.
+
+Um resultado interessante que foi obtido no decorrer desse projeto foi que termos relacionados à testes do coronavirus, no geral, apresentam altas lag correlations, o que pode indicar que as pessoas, após serem contaminadas, pesquisam pelos testes antes de ser, efetivamente, descoberto que elas contrairam a doença.
+
+Ademais, para as regressões, o método ARIMAX utilizando as keywords com altas lag correlations se provou o mais eficaz para o forecasting do COVID-19, com os menores erros RMSE e MAE entre os modelos testados, seguido pela regressão linear. O modelo ARIMA não demonstrou bom resultados, o que é um indicativo de que as keywords realmente contribuíram para a previsão.
 
 
