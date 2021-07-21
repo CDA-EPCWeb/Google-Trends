@@ -86,7 +86,7 @@ kwMG=kwMG.drop('date',axis=1)
 # In[9]:
 
 
-#Função que encontra as maxlag correlations (até 14 semanas de lag pois é 1/3 das semanas)
+#Função que encontra as maxlag correlations (até 8 semanas de lag +- 2 meses)
 def getMaxCorrelations(kw,ind,cat):
     dic={
         'Keyword' : [],
@@ -96,7 +96,7 @@ def getMaxCorrelations(kw,ind,cat):
     for i in kw:
         maxcorr=0
         lag=-1
-        for j in range(8):
+        for j in range(9): 
             corr=kw[:-j].reset_index()[i].corr(ind[j:].reset_index()[cat],method='spearman')
             if np.abs(corr)>=np.abs(maxcorr):
                 maxcorr=corr
