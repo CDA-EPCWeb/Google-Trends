@@ -24,8 +24,6 @@ pip install pysqlite3
 
 pip install pytrends
 
-pip install wordcloud
-
 pip install -U scikit-learn
 
 pip install statsmodels
@@ -40,15 +38,10 @@ Outra base de dados utilizada é a base de dados queries categorizadas, que cont
 # GtrendsQuery.ipynb
 Esse notebook é o responsável pela consulta do Google Trends gerada. Para sua execução é necessária a instalação das bibliotecas pandas, sqlite3, pytrends e numpy, além dos bancos de dados indicadores.db e Queries categorizadas.csv. A partir disso, o script realizará as consultas relativas às semanas epidemiológicas 9 a 52 e salvará as series temporais resultantes no arquivo SeriesKeywords.csv e SeriesKeywordsMG.csv, que possuem, respectivamente, os dados quanto ao Brasil e Minas Gerais.
 
-# correlacaoAnalise.ipynb
-Esse notebook é o responsável por realizar o calculo de correlação e a partir dele gerar diferentes visualizações para os dados, notávelmente, gráficos de linha, scatter plots e wordclouds. Para sua execução são necessárias as bibliotecas pandas, sqlite3, numpy, matplotlib e wordcloud, além dos arquivos gerados por GtrendsQuery.ipynb, indicadores.db e Queries categorizadas.csv. O algoritmo utilizado para os bubblegraphs foi baseado em https://matplotlib.org/devdocs/gallery/misc/packed_bubbles.html
-
-O output do código são os arquivos que podem ser vistos nas diversas pastas desse repositório: as spreadsheets da pasta Correlations, os gráficos da pasta Sintomas, os gráficos da pasta Top10, as wordclouds da pasta Wordclouds e os bubble graphs da pasta Bubbles.
-
 # lagCorrelations.ipynb
 Esse notebook é o responsável por realizar o calculo das correlações com lag, encontrando o intervalo de tempo que gera a melhor correlação (e consequentemente a melhor previsão dos indicadores a partir dos dados Google Trends). Para sua execução são necessárias as bibliotecas pandas e sqlite3, além dos arquivos gerados por GtrendsQuery.ipynb e indicadores.db.
 
-O output do código são as maiores lag correlations encontradas. Além disso, o código permite encontrar todas correlações para um lag específico.
+O output do código são as maiores lag correlations encontradas, os gráficos com as keywords com maiores correlações em relação a um indicador e uma tabela com as lag correlations por semana dos que atingiram altas correlações (>=0.7) em relação aos novos casos e às novas mortes. Além disso, o código permite encontrar todas correlações para um lag específico.
 
 # Regressao.ipynb
 Esse notebook realiza o calculo da regressão entre as keywords do Google trends e os indicadores, de diferentes formas, buscando fazer um forecast dos dados de interesse. Para sua execução são necessárias as bibliotecas matplotlib, numpy, pandas, sqlite3, scikit learn, statsmodels e pmdarima.
@@ -61,14 +54,8 @@ Para a seleção dos termos de busca, inicialmente foi conduzido um levantamento
 # Resultados
 Esse repositório ao fim da execução desses vários notebooks gera não somente as correlações entre os indicadores e as keywords utilizadas, como também diversas visualizações, o que permite uma mais fácil observação de relações entre esses dois dados, que podem ser vistas, por exemplo, por meio de gráficos como os abaixo:
 
-![image](https://user-images.githubusercontent.com/57831311/115241132-dd4ad500-a0f6-11eb-882c-2a676fa3b1b9.png) ![image](https://user-images.githubusercontent.com/57831311/115241163-e340b600-a0f6-11eb-8ce8-e00d2a5f4e58.png)
-![image](https://user-images.githubusercontent.com/57831311/111805981-464cec00-88b0-11eb-8991-759401a4d791.png)
-
-Outro resultado são imagens de facil interpretação no geral, como os bubble graphs e wordclouds, nos quais o tamanho da bolha e palavra, respectivamente, indica quão alta é a correlação. Exemplos da aplicação desses métodos na pesquisa incluem:
-Bubble graph das correlações em relação aos novos casos em MG(azul=positivo, vermelho=negativo):
-![image](https://user-images.githubusercontent.com/57831311/111805902-37663980-88b0-11eb-8f37-cf71afa45f44.png)
-Wordcloud das correlações em relação aos novos casos em MG a partir de seu valor absoluto:
-![image](https://user-images.githubusercontent.com/57831311/111806063-5bc21600-88b0-11eb-822f-89044d881205.png)
+![image](https://user-images.githubusercontent.com/57831311/126552976-2ad3124f-a9fb-4f9f-8374-2604fb285400.png)
+![image](https://user-images.githubusercontent.com/57831311/126552990-70a62443-6725-45cf-9942-df16b265911a.png)
 
 Por fim, um resultado importante dos arquivos desse repositório foi a produção de diversas previsões, buscando encontrar aquela mais adequada para a pandemia.
 Algumas dessas previsões podem ser vistas no gráfico abaixo:
