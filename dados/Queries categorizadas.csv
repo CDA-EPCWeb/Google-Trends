@@ -1,0 +1,126 @@
+,referencia,query,Categoria,Subcategoria
+1,erupção cutânea,sintomas do covid,Sintoma,geral
+2,erupção cutânea,covid-19,Vírus ou Doença,geral
+3,erupção cutânea,sintomas do covid 19,Sintoma,geral
+4,dor de garganta,dor de garganta,Sintoma,gripais
+5,dor de cabeça,dor de cabeça,Sintoma,geral
+6,olfato,perda olfato,Sintoma,específicos
+7,olfato,olfato e paladar perda,Sintoma,específicos
+8,olfato,perda de paladar,Sintoma,específicos
+9,login caixa,login caixa auxilio emergencial,Socioeconômico,auxílio emergencial e seguro desemprego
+10,reabertura,reabertura comercio,Socioeconômico,reabertura
+11,reabertura,reabertura shopping,Socioeconômico,reabertura
+12,reabertura,reabertura academias,Socioeconômico,reabertura
+13,reabertura,reabertura escolas,Socioeconômico,reabertura
+14,reabertura,plano de reabertura,Socioeconômico,reabertura
+15,paladar,olfato,Sintoma,específicos
+16,paladar,paladar e olfato,Sintoma,específicos
+17,paladar,covid 19 sintomas,Sintoma,geral
+18,cotonete,exame cotonete,Prevenção e Testes,pcr
+19,teste rapido,teste covid,Prevenção e Testes,geral
+20,teste rapido,teste coronavírus,Prevenção e Testes,geral
+21,teste rapido,teste rapido de coronavírus,Prevenção e Testes,teste rápido
+22,termometro,termometro digital,Prevenção e Testes,termômetro
+23,termometro,termometro,Prevenção e Testes,termômetro
+24,termometro,febre,Sintoma,gripais
+25,falta de ar,falta de ar sintomas,Sintoma,gripais
+26,falta de ar,falta de ar,Sintoma,gripais
+27,falta de ar,ansiedade,Sintoma,geral
+28,falta de ar,tosse,Sintoma,gripais
+29,falta de ar,cansaço,Sintoma,geral
+30,congestão nasal,sintomas coronavirus,Sintoma,geral
+31,congestão nasal,nariz entupido,Sintoma,gripais
+32,oxímetro,oximetro,Prevenção e Testes,oxímetro
+33,oxímetro,oximetro de dedo,Prevenção e Testes,oxímetro
+34,ivermectina,tomar ivermectina,Medicação e Tratamento,ivermectina
+35,ivermectina,ivermectina coronavírus,Medicação e Tratamento,ivermectina
+36,ivermectina,para que serve ivermectina,Medicação e Tratamento,ivermectina
+37,ivermectina,azitromicina,Medicação e Tratamento,azitromicina
+38,ivermectina,ivermectina covid como tomar,Medicação e Tratamento,ivermectina
+39,novos casos,casos novos coronavírus,Indicadores,geral
+40,seguro desemprego,seguro desemprego entrada,Socioeconômico,auxílio emergencial e seguro desemprego
+41,seguro desemprego,seguro desemprego emergencial,Socioeconômico,auxílio emergencial e seguro desemprego
+42,seguro desemprego,como dar entrada no seguro desemprego,Socioeconômico,auxílio emergencial e seguro desemprego
+43,seguro desemprego,auxilio desemprego,Socioeconômico,auxílio emergencial e seguro desemprego
+44,pico,pico brasil,Indicadores,pico
+45,pico,pico coronavírus,Indicadores,pico
+46,pico,brasil coronavírus,Indicadores,pico
+47,pico,coronavírus brasil pico,Indicadores,pico
+48,pico,coronavírus pico brasil,Indicadores,pico
+49,pico,covid,Vírus ou Doença,geral
+50,pico,pico pandemia,Indicadores,pico
+51,pico,coronavírus no brasil,Indicadores,pico
+52,pico,pico corona,Indicadores,pico
+53,pico,brasil pico da pandemia,Indicadores,pico
+54,pico,covid brasil,Indicadores,pico
+55,cesta básica,cesta básica,Socioeconômico,cesta básica
+56,cesta básica,cesta básica cras,Socioeconômico,cesta básica
+57,grupo de Risco,coronavírus grupo de risco,Grupo de Risco,geral
+58,grupo de Risco,grupo de risco covid,Grupo de Risco,geral
+59,grupo de Risco,corona grupo de risco,Grupo de Risco,geral
+60,grupo de Risco,ministerio da saude,Autoridades e instituições,geral
+61,leitos,leitos de uti,Indicadores,geral
+62,leitos,leitos uti brasil,Indicadores,geral
+63,leitos,taxa de ocupação de leitos,Indicadores,geral
+64,máscara,fazer máscara,Prevenção e Testes,máscara
+65,máscara,máscara,Prevenção e Testes,máscara
+66,máscara,máscara tecido,Prevenção e Testes,máscara
+67,máscara,como fazer máscara,Prevenção e Testes,máscara
+68,máscara,máscara n95,Prevenção e Testes,máscara
+69,máscara,máscara de tecido como fazer,Prevenção e Testes,máscara
+70,máscara,máscara descartável,Prevenção e Testes,máscara
+71,máscara,máscara proteção,Prevenção e Testes,máscara
+72,máscara,máscaras,Prevenção e Testes,máscara
+73,máscara,máscara de tecido,Prevenção e Testes,máscara
+74,vacina,coronavírus vacina,Vacina,geral
+75,vacina,vacina corona,Vacina,geral
+76,vacina,vacina china,Vacina,geral
+77,sars,covid 19,Vírus ou Doença,geral
+78,pcr,covid pcr,Prevenção e Testes,pcr
+79,pcr,pcr exame covid,Prevenção e Testes,pcr
+80,pcr,exame covid,Prevenção e Testes,pcr
+81,pcr,pcr,Prevenção e Testes,pcr
+82,pcr,pcr coronavírus,Prevenção e Testes,pcr
+83,teste rápido,teste rápido covid,Prevenção e Testes,teste rápido
+84,teste rápido,teste covid,Prevenção e Testes,geral
+85,teste rápido,teste rápido coronavírus,Prevenção e Testes,teste rápido
+86,igg,igg,Prevenção e Testes,anticorpos
+87,igg,igm,Prevenção e Testes,anticorpos
+88,igg,igg igm,Prevenção e Testes,anticorpos
+89,igg,covid igg,Prevenção e Testes,anticorpos
+90,igg,covid igm igg,Prevenção e Testes,anticorpos
+91,igg,reagente igg,Prevenção e Testes,anticorpos
+92,igg,teste igg,Prevenção e Testes,anticorpos
+93,igg,exame igg,Prevenção e Testes,anticorpos
+94,isolamento,isolamento social,Socioeconômico,isolamento e quarentena
+95,isolamento,quarentena,Socioeconômico,isolamento e quarentena
+96,quarentena,coronavírus quarentena,Socioeconômico,isolamento e quarentena
+97,quarentena,quarentena dia,Socioeconômico,isolamento e quarentena
+98,quarentena,quarentena brasil,Socioeconômico,isolamento e quarentena
+99,quarentena,fim quarentena,Socioeconômico,isolamento e quarentena
+100,idosos,coronavírus idosos,Grupo de Risco,idosos
+101,lockdown,como funciona lockdown,Socioeconômico,lockdown
+102,lockdown,lockdown brasil,Socioeconômico,lockdown
+103,lockdown,lockdown covid,Socioeconômico,lockdown
+104,lockdown,decreto lockdown,Socioeconômico,lockdown
+105,mortes,brasil coronavírus mortes,Indicadores,mortes
+106,mortes,mortes corona,Indicadores,mortes
+107,mortes,mortes por coronavírus,Indicadores,mortes
+108,decreto,decreto quarentena,Socioeconômico,isolamento e quarentena
+109,oms,coronavírus oms,Autoridades e instituições,geral
+110,oms,oms corona,Autoridades e instituições,geral
+111,oms,covid 19 oms,Autoridades e instituições,geral
+112,oms,cloroquina,Medicação e Tratamento,cloroquina
+113,oms,oms coronavírus,Autoridades e instituições,geral
+114,oms,máscara oms,Prevenção e Testes,máscara
+115,oms,oms brasil coronavírus,Autoridades e instituições,geral
+116,álcool,álcool gel,Prevenção e Testes,álcool
+117,álcool,álcool 70,Prevenção e Testes,álcool
+118,imunidade,coronavírus imunidade,Vírus ou Doença,geral
+119,respirador,respirador mecanico,Medicação e Tratamento,respiradores
+120,respirador,respirador,Medicação e Tratamento,respiradores
+121,respirador,respirador hospitalar,Medicação e Tratamento,respiradores
+122,medicamento,medicamento coronavírus,Medicação e Tratamento,geral
+123,medicamento,medicamento corona,Medicação e Tratamento,geral
+124,estou com covid,estou com covid,Contraiui Covid,
+125,peguei covid,peguei covid,Contraiui Covid,
