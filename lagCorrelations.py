@@ -12,9 +12,9 @@ import numpy as np
 # In[2]:
 
 
-kwBR=pd.read_csv('SeriesKeywords.csv')
-kwMG=pd.read_csv('SeriesKeywordsMg.csv')
-conn =sqlite3.connect("indicadores.db")
+kwBR=pd.read_csv('dados\\SeriesKeywords.csv')
+kwMG=pd.read_csv('dados\\SeriesKeywordsMg.csv')
+conn =sqlite3.connect("dados\\indicadores.db")
 brasilDf=pd.read_sql_query("select * from brazil_df",conn)
 statesDf=pd.read_sql_query("select * from states_df",conn)
 conn.close()
